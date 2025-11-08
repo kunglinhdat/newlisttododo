@@ -1,0 +1,66 @@
+    body {
+      background-color: #3586c2;
+    }
+    .board {
+      background: #f8f9fa;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px #0002;
+      padding: 16px;
+      min-width: 270px;
+      margin-right: 18px;
+      margin-bottom: 18px;
+      display: flex;
+      flex-direction: column;
+    }
+    .board-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .card-task {
+      background: #fff;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      padding: 10px 12px;
+      box-shadow: 0 1px 3px #0001;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+    }
+    .task-color {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      margin-right: 8px;
+    }
+    .task-avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      margin-left: auto;
+      margin-right: 0;
+      border: 2px solid #fff;
+      box-shadow: 0 0 0 1px #ccc;
+    }
+    .add-card-link {
+      color: #6c757d;
+      font-size: 15px;
+      padding: 6px 0;
+      display: inline-block;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .add-card-link:hover {
+      text-decoration: underline;
+      color: #495057;
+    }
+    @media (max-width: 900px) {
+      .kanban-row {
+        flex-direction: column;}
+      }
+      .board {
+        margin-right: 0;
+        width: 100%;
+      }
